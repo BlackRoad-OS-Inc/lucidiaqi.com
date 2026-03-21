@@ -1,0 +1,25 @@
+{
+  "name": "lucidiaqi.com",
+  "org": "BlackRoad-OS-Inc",
+  "category": "quantum-ai",
+  "title": "Lucidia QI",
+  "deploy": {
+    "target": "gematria",
+    "path": "/var/www/blackroad/lucidiaqi.com",
+    "ssl": "auto",
+    "cdn": true
+  },
+  "mirrors": {
+    "gitea": "https://git.blackroad.io/BlackRoad-OS-Inc/lucidiaqi.com",
+    "github": "https://github.com/BlackRoad-OS-Inc/lucidiaqi.com"
+  },
+  "ci": {
+    "on_push": ["build", "deploy"],
+    "on_pr": ["lint", "audit"]
+  },
+  "monitoring": {
+    "uptime": true,
+    "analytics": "roadanalytics",
+    "alerts": "nats"
+  }
+}
