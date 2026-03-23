@@ -1,5 +1,13 @@
 # lucidiaqi.com
 
+> BlackRoad OS, Inc. — lucidiaqi.com domain repo. Proprietary.
+
+Part of the [BlackRoad OS](https://blackroad.io) ecosystem — [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc)
+
+---
+
+# lucidiaqi.com
+
 > Lucidia Quantum Intelligence. Advanced AI reasoning.
 
 ## About
